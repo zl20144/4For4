@@ -1,5 +1,11 @@
 #gametitle{
-  height: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+#titleimg{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #left_p{
   width: 20%;
