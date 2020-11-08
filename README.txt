@@ -22,6 +22,7 @@ Hardcore:
 
 Constraints:
 Due to limited advancement for handwritten-to-text recognition with Javascript as well as insufficient training time, there are instances where AI fails to recognize certain text, so please write as neat as possible while playing.
+Additionally, due to limited time for overall working on this project(~4hrs only), we've made relatively tiny progress on the project and realized the importance of prototyping and time management as this ends our first experience on hacking events.
 
 
 External Resources:
