@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>4 For 4</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body id="game">
+  <section id="header">
+    <img src = "image (1).png">
+  </section>
+  <div class="middle">
+    <div id = "timerbox">
+    <p class = "text_timer">TIMER: XX SECONDS LEFT</p>
+    </div>
+    <div class = "gamemode">
+    <p> Game Mode:</p>
+    <input type="checkbox" id="Peaceful"><br/>
+    <label for="Peaceful">Peaceful Mode:</label>
+    <input type="checkbox" id="Normal"><br/>
+    <label for="Normal">Normal Mode:</label>
+    <input type="checkbox" id="Hardcore"><br/>
+    <label for="Hardcore">Hardcore Mode:</label>
+    
+    </div>
+    <section id = "sett">
+    <p class="records" id="settings">Settings:{</p>
+    <p class="recordss">
+      <label for="playerName">Player Name:</label>
+      <input type="text" id="playerName"><br/>
+    
+      <label for="Peaceful">Peaceful Mode:</label>
+      <input type="checkbox" id="Peaceful"><br/>
+      <label for="Normal">Normal Mode:</label>
+      <input type="checkbox" id="Normal"><br/>
+      <label for="Hardcore">Hardcore Mode:</label>
+      <input type="checkbox" id="Hardcore"><br/>
+    </p>
+    <button id="changeSettings">Change Settings</button>
+    </section>
+  </div>
+
+
+
+  <div class="right">
+    <section id="results">
+      <p class="records" id="score">Final Score: </p>
+      <p class="records" id="best">Best Score: </p>
+.
+      <p class="records" id="dispname">Player Name:</p>
+      <p class="records" id="dispcheck">Game Mode:</p>
+    </section>
+    <section id="play">
+      <button id="get">New Game</button>
+      <button id="reset">RESET</button>
+    </section>
+
+
+  </div>
+</body>
+</html>
