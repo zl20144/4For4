@@ -22,3 +22,7 @@ Hardcore:
 
 Constraints:
 Due to limited advancement for handwritten-to-text recognition with Javascript as well as insufficient training time, there are instances where AI fails to recognize certain text, so please write as neat as possible while playing.
+
+
+External Resources:
+[OCR attempted to use] https://github.com/jeffheaton/encog-javascript/tree/master/examples
